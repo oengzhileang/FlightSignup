@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: linear-gradient(277deg, rgba(255, 255, 255, 0.15) 31.11%, rgba(198, 198, 198, 0.11) 53.48%, rgba(67, 67, 67, 0.00) 66.8%), #000;
+    width: 1440px;
+    height: 1024px;
+}
+.Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-top: 40px;
+}
+.Logo{
+    color: white;
+    margin-left: 150px;
+    text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    line-height: normal;
+    margin-left: 100px;
+}
+.button {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-style: 700px;
+    font-size: 30px;
+    line-height: normal;
+    padding: 10px;
+    margin-right: 150px;
+}
+.text{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+}
+.Head{
+    color: white;
+    font-size: 50px;
+    font-weight: 400px;
+}
+.paragraph{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.button1{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 30px;
+    font-weight: 400px;
+    font-style: normal;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.form{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 300px;
+    left: 78rem;
+    background-color: white;
+}
+.form{
+    border-radius: 10px;
+}
+.Head1{
+    margin-top: 30px ;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    font-weight: 600px;
+}
+.p1{
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    padding: 18px;
+}
+.register{
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    margin-left: 250px;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    padding: 18px;
+}
