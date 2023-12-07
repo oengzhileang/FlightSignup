@@ -36,25 +36,26 @@ body{
 }
 .button {
     color: white;
-    background-color: black;
+    background: none;
     border: 1px solid white;
     font-style: 700px;
     font-size: 30px;
     line-height: normal;
     padding: 10px;
     margin-right: 150px;
+    cursor: pointer;
 }
 .text{
     position: absolute;
     top: 300px;
     left: 160px;
 }
-.Head{
+.text :first-child{
     color: white;
     font-size: 50px;
     font-weight: 400px;
 }
-.paragraph{
+.text :nth-child(2){
     color: white;
     font-size: 20px;
     margin-top: 15px;
@@ -70,6 +71,7 @@ body{
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .form{
     position: absolute;
@@ -82,13 +84,13 @@ body{
 .form{
     border-radius: 10px;
 }
-.Head1{
+.form :first-child{
     margin-top: 30px ;
     margin-left: 140px;
     margin-bottom: 30px;
     font-weight: 600px;
 }
-.p1{
+.form p{
     color: black;
     border: none;
     border-radius: 10px;
@@ -100,7 +102,7 @@ body{
     font-size: 20px;
     padding: 18px;
 }
-.register{
+.form :last-child{
     color: black;
     border: none;
     border-radius: 10px;
@@ -112,3 +114,4 @@ body{
     font-size: 20px;
     padding: 18px;
 }
+
